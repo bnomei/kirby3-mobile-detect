@@ -1,0 +1,22 @@
+{
+    "name": "bnomei/mobile-detect",
+    "type": "plugin",
+    "version": "0.1.0",
+    "autoload": {
+        "files": [
+            "config.php"
+        ],
+        "psr-4": {
+            "Bnomei\\": "classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bruno Meilick",
+            "email": "b@bnomei.com"
+        }
+    ],
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8"
+    }
+}
