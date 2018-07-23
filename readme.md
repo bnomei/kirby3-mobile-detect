@@ -1,8 +1,8 @@
 # Kirby 3 Mobile Detect
 
-![GitHub release](https://img.shields.io/github/release/bnomei/kirby3-mobile-detect.svg?maxAge=1800) ![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-3.3%2B-black.svg)
+![GitHub release](https://img.shields.io/github/release/bnomei/kirby3-mobile-detect.svg?maxAge=1800) ![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-3%2B-black.svg)
 
-Static Class and Page Method for using [Mobile Detect](https://github.com/serbanghita/).
+Static Class and Page Methods for using [Mobile Detect](https://github.com/serbanghita/).
 
 ```php
 $detect = $page->detect();
