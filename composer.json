@@ -1,7 +1,7 @@
 {
     "name": "bnomei/kirby3-mobile-detect",
     "type": "plugin",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "license": "MIT",
     "autoload": {
         "files": [
@@ -17,7 +17,15 @@
             "email": "b@bnomei.com"
         }
     ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/k-next/kirby"
+        }
+    ],
     "require": {
+        "getkirby/cms": "3.0.*",
         "mobiledetect/mobiledetectlib": "^2.8"
-    }
+    },
+    "minimum-stability": "beta"
 }
