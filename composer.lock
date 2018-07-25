@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb2e932cd407d1c33579fe1433115140",
+    "hash": "91a0993e4f32d6a269e01686679815c2",
+    "content-hash": "cd02a0863fcd4553f31012b2789847b4",
     "packages": [
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -56,7 +57,7 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2018-06-03T13:13:04+00:00"
+            "time": "2018-06-03 13:13:04"
         }
     ],
     "packages-dev": [],

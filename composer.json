@@ -1,5 +1,5 @@
 {
-    "name": "bnomei/mobile-detect",
+    "name": "bnomei/kirby3-mobile-detect",
     "type": "plugin",
     "version": "0.1.0",
     "autoload": {
