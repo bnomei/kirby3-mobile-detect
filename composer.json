@@ -1,7 +1,7 @@
 {
     "name": "bnomei/kirby3-mobile-detect",
     "type": "plugin",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "license": "MIT",
     "description": "Static Class and Page Methods for using Mobile Detect Lib",
     "autoload": {
@@ -27,6 +27,10 @@
     "require": {
         "mobiledetect/mobiledetectlib": "^2.8",
         "getkirby/cms": "dev-master as 3.0.0"
+    },
+    "scripts": {
+        "build": "composer update; composer dumpautoload -o;",
+        "zip": "rm kirby3-mobile-detect.zip; composer remove getkirby/cms; composer dumpautoload -o; composer archive --format=zip --file=kirby3-mobile-detect; composer require getkirby/cms:'dev-master as 3.0.0'; composer dumpautoload -o;"
     },
     "minimum-stability": "beta"
 }
