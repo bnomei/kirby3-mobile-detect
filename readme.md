@@ -4,7 +4,7 @@
 
 Static Class and Page Methods for using [Mobile Detect](https://github.com/serbanghita/).
 
-This plugin is free but if you use it in a commercial project please consider to [make a donation 🍻](https://www.paypal.me/bnomei/5).
+This plugin is free but if you use it in a commercial project please consider to [make a donation 🍻](https://www.paypal.me/bnomei/1.5).
 
 ```php
 $detect = $page->detect();
