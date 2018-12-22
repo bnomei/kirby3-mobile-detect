@@ -1,7 +1,7 @@
 {
     "name": "bnomei/kirby3-mobile-detect",
     "type": "plugin",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "license": "MIT",
     "description": "Static Class and Page Methods for using Mobile Detect Lib",
     "authors": [
@@ -38,7 +38,8 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "getkirby/cms": "^3.0.0-RC-2.0"
+        "getkirby/cms": "^3.0.0-RC-2.0",
+        "mobiledetect/mobiledetectlib": "^2.8"
     },
     "conflict": {
         "getkirby/kirby": "<3.0"
