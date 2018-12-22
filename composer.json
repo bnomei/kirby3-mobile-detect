@@ -1,9 +1,23 @@
 {
     "name": "bnomei/kirby3-mobile-detect",
     "type": "plugin",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "license": "MIT",
     "description": "Static Class and Page Methods for using Mobile Detect Lib",
+    "authors": [
+        {
+            "name": "Bruno Meilick",
+            "email": "b@bnomei.com"
+        }
+    ],
+    "keywords": [
+        "kirby3",
+        "kirby3-cms",
+        "kirby3-plugin",
+        "mobile-detect"
+    ],
+    "suggest": {
+    },
     "autoload": {
         "files": [
             "config.php"
@@ -12,26 +26,31 @@
             "Bnomei\\": "classes/"
         }
     },
-    "authors": [
-        {
-            "name": "Bruno Meilick",
-            "email": "b@bnomei.com"
-        }
-    ],
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
     "repositories": [
         {
-          "type": "vcs",
-          "url": "https://github.com/k-next/kirby"
+            "type": "vcs",
+            "url": "https://github.com/k-next/kirby"
         }
     ],
     "require": {
-        "mobiledetect/mobiledetectlib": "^2.8",
-        "getkirby/cms": "dev-master as 3.0.0"
+        "php": ">=7.1.0",
+        "getkirby/cms": "^3.0.0-RC-2.0"
+    },
+    "conflict": {
+        "getkirby/kirby": "<3.0"
     },
     "scripts": {
-        "build": "composer update; composer dumpautoload -o;",
-        "dev-zip": "rm kirby3-mobile-detect.zip; composer remove getkirby/cms; composer dumpautoload -o; composer archive --format=zip --file=kirby3-mobile-detect; composer require getkirby/cms:'dev-master as 3.0.0'; composer dumpautoload -o;",
-        "zip": "rm kirby3-mobile-detect.zip; composer update; composer remove getkirby/cms; composer dumpautoload -o; zip -r kirby3-mobile-detect.zip . -x *.git*; composer require getkirby/cms:'dev-master as 3.0.0'; composer dumpautoload -o;"
-    },
-    "minimum-stability": "beta"
+        "zip": [
+            "rm kirby3-mobile-detect.zip",
+            "composer install --no-dev",
+            "composer remove getkirby/cms",
+            "composer dumpautoload -o",
+            "zip -r kirby3-mobile-detect.zip . -x *.git*",
+            "composer require getkirby/cms:'^3.0.0-RC-2.0'"
+        ]
+    }
 }
