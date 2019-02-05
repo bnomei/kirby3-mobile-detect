@@ -1,6 +1,6 @@
 # Kirby 3 Mobile Detect
 
-![GitHub release](https://img.shields.io/github/release/bnomei/kirby3-mobile-detect.svg?maxAge=1800) ![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-3%2B-black.svg)
+![GitHub release](https://img.shields.io/github/release/bnomei/kirby3-mobile-detect.svg?maxAge=1800) ![License](https://img.shields.io/github/license/mashape/apistatus.svg) ![Kirby Version](https://img.shields.io/badge/Kirby-3%2B-black.svg) ![Kirby 3 Pluginkit](https://img.shields.io/badge/Pluginkit-YES-cca000.svg)
 
 Static Class and Page Methods for using [Mobile Detect](https://github.com/serbanghita/).
 
@@ -13,10 +13,9 @@ This plugin is free but if you use it in a commercial project please consider to
 
 ## Installation
 
-- for devkit-setup use `composer require bnomei/kirby3-mobile-detect` or
-- extract latest release of [kirby3-mobile-detect.zip](https://github.com/bnomei/kirby3-mobile-detect/releases/download/v1.2.7/kirby3-mobile-detect.zip) as folder `site/plugins/kirby3-mobile-detect`
-
-> Installation as a gitsubmodule is *not* supported.
+- unzip [master.zip](https://github.com/bnomei/kirby3-mobile-detect/archive/master.zip) as folder `site/plugins/kirby3-mobile-detect` or
+- `git submodule add https://github.com/bnomei/kirby3-mobile-detect.git site/plugins/kirby3-mobile-detect` or
+- `composer require bnomei/kirby3-mobile-detect`
 
 
 ```php
