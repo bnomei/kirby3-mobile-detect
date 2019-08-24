@@ -2,6 +2,8 @@
 
 namespace Bnomei;
 
+use Mobile_Detect;
+
 class MobileDetect
 {
     private static $detect = null;
@@ -9,7 +11,7 @@ class MobileDetect
     public static function instance()
     {
         if (!self::$detect) {
-            self::$detect = new \Mobile_Detect;
+            self::$detect = new Mobile_Detect;
         }
         return self::$detect;
     }
