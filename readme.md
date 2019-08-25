@@ -26,7 +26,6 @@ This plugin is free but if you use it in a commercial project please consider to
 - `git submodule add https://github.com/bnomei/kirby3-mobile-detect.git site/plugins/kirby3-mobile-detect` or
 - `composer require bnomei/kirby3-mobile-detect`
 
-
 ```php
 $detect = $page->detect();
 // https://github.com/serbanghita/Mobile-Detect/wiki/Code-examples
@@ -37,6 +36,12 @@ $isMobile = $page->isMobile();
 $isMobile = Bnomei\MobileDetect::instance()->isMobile();
 $isTablet = $page->isTablet();
 ```
+
+> TIP: With `Bnomei\MobileDetect::instance()` you have access to **all** [detections functions](https://github.com/serbanghita/Mobile-Detect/wiki/Code-examples).
+
+## Dependencies
+
+- [Mobile Detect](https://github.com/serbanghita/)
 
 ## Disclaimer
 
