@@ -1,7 +1,7 @@
 {
   "name": "bnomei/kirby3-mobile-detect",
   "type": "kirby-plugin",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "license": "MIT",
   "description": "Static Class and Page Methods for using Mobile Detect Lib",
   "authors": [

@@ -7,4 +7,9 @@ use PHPUnit\Framework\TestCase;
 
 final class MobiledetectTest extends TestCase
 {
+    public function testStaticInstance()
+    {
+        $md = MobileDetect::instance();
+        $this->assertInstanceOf(Mobile_Detect::class, $md);
+    }
 }
