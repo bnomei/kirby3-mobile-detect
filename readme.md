@@ -9,7 +9,7 @@
 
 Static Class and Page Methods for using [Mobile Detect](https://github.com/serbanghita/).
 
-## Commerical Usage
+## Commercial Usage
 
 > <br>
 > <b>Support open source!</b><br><br>
