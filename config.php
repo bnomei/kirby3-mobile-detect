@@ -1,4 +1,5 @@
 <?php
+
     Kirby::plugin('bnomei/mobile-detect', [
         'pageMethods' => [
             'isMobile' => function () {
